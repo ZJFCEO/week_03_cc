@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+
+# Harness 运行时状态（审计、检查点、工作区副本）；提交用的记录在 records/
+.harness/
+workspaces/
+
+# IDE / macOS
+.idea/
+.vscode/
+.DS_Store
+
+# 环境变量（DEEPSEEK_API_KEY 等）；demo_repos 里的 .env 是故意放的假密钥
+.env
+!demo_repos/**/.env

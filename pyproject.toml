@@ -1,0 +1,15 @@
+[project]
+name = "guarded-harness"
+version = "0.1.0"
+description = "Guarded Coding Harness on top of smolagents ToolCallingAgent (AI Agent bootcamp, week 3)"
+requires-python = ">=3.11"
+dependencies = [
+    "smolagents[openai]==1.26.0",
+    "pydantic>=2.7",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

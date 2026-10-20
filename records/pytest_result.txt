@@ -1,0 +1,27 @@
+# pytest -q 实际结果（2026-10-21 00:24:26，Python 3.12.11，smolagents 1.26.0）
+
+## 第 1 次
+$ .venv/bin/python -m pytest -q
+........................................................................ [ 80%]
+..................                                                       [100%]
+90 passed in 9.73s
+
+## 第 2 次
+$ .venv/bin/python -m pytest -q
+........................................................................ [ 80%]
+..................                                                       [100%]
+90 passed in 9.74s
+
+## 第 3 次
+$ .venv/bin/python -m pytest -q
+........................................................................ [ 80%]
+..................                                                       [100%]
+90 passed in 9.78s
+
+## 各测试文件的用例数
+   7 tests/test_audit.py
+  10 tests/test_completion.py
+  17 tests/test_gate.py
+   6 tests/test_harness_loop.py
+  42 tests/test_sandbox.py
+   8 tests/test_state_checkpoint.py
